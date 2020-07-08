@@ -1,9 +1,10 @@
 # DCGRU_Tensorflow2
-Implementation of the DCGRU recurrent cell in Tensorflow 2
+Alternative implementation of the DCGRU recurrent cell in Tensorflow 2
 
 Diffusion Convolutional Gated Recurrent Unit (DCGRU) is the recurrent cell adopted in the Diffusion Convolutional Recurrent Neural Network (DCRNN), a deep learning architecture introduced by Y. Li et al. [1] to tackle spatiotemporal forecasting tasks, where data is represented as a graph signal.
 The DCGRU cell is a modification of the standard GRU, having each matrix multiplication operation replaced by the the diffusion convolution operation (see [1]).
 
+(Since I'm not part of the authors of the original DCRNN paper [1], this should be treated as an unofficial implementation)
 
 # How to build a DCGRU layer
 
