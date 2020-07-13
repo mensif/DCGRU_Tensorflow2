@@ -1,3 +1,6 @@
+# The majority of the present code originally comes from
+# https://github.com/liyaguang/DCRNN/blob/master/lib/utils.py
+
 import numpy as np
 import tensorflow as tf
 import scipy.sparse as sp
